@@ -262,7 +262,7 @@ scene('game', ({level, score}) => {
     } 
 
     function spawnBomber(p) {
-       const obj = add([sprite('bomber'), ('move'), pos(p), scale(1), 'bomber']);
+       const obj = add([sprite('bomber'), ('move'), pos(p), scale(1.5), 'bomber']);
        obj.pushOutAll();
        obj.play("move");
 
